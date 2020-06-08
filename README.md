@@ -8,7 +8,7 @@ Click on the selected diagram to open it in [Draw.io](https://draw.io)
 ## Shelley Keys and Addresses
 [![ShelleyKeyAndAddresses](images/ShelleyKeyAndAddresses.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyKeyAndAddresses.drawio)
 
-## Shelely Transaction (Simple)
+## Shelley Transaction (Simple)
 [![TransactionSimple](images/Transaction_simple.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransaction_simple.drawio)
 
 
