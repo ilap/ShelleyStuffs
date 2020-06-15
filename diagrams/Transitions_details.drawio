@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-15T00:52:13.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="z191AeMHtBy43c3K25_2" version="13.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-15T00:54:40.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="PbOvd7oQxyfPiolsDf0p" version="13.2.4" type="github">
   <diagram id="DhZqUfJ76sKSV6iJou7Q" name="Page-1">
     <mxGraphModel dx="1181" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           <mxGeometry x="39" y="290" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-101" value="Reward calculation&lt;br&gt;&lt;b&gt;1 honest block&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="880" y="280" width="160" height="40" as="geometry" />
+          <mxGeometry x="920" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-102" value="" style="endArrow=classic;html=1;fontSize=17;strokeWidth=2;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -127,8 +127,8 @@
             <mxPoint x="1039" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9JOyqpBVN2uxr1GvDzql-104" value="&lt;b&gt;4.&lt;/b&gt; Snapshot is ready and&amp;nbsp;Reward calc is started" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
-          <mxGeometry x="888.5699999999999" y="325" width="110" height="50" as="geometry" />
+        <mxCell id="9JOyqpBVN2uxr1GvDzql-104" value="&lt;b&gt;4.&lt;/b&gt; Snapshot is ready and&amp;nbsp;Reward calc can be started" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="754.79" y="335" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-105" value="&lt;b&gt;5. &lt;/b&gt;Finished&lt;br&gt;Update to the ledger state cant be started" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=30;" vertex="1" parent="1">
           <mxGeometry x="1049" y="335" width="101" height="40" as="geometry" />
@@ -161,16 +161,13 @@
           <mxGeometry x="3.0700000000000003" y="400" width="141.86" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-122" value="EPOCH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=30;" vertex="1" parent="1">
-          <mxGeometry x="499.57" y="400" width="130.43" height="40" as="geometry" />
+          <mxGeometry x="499.57" y="400" width="100.43" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-123" value="EPOCH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=30;" vertex="1" parent="1">
-          <mxGeometry x="820" y="400" width="80" height="40" as="geometry" />
+          <mxGeometry x="820" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-124" value="EPOCH" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=30;" vertex="1" parent="1">
-          <mxGeometry x="180" y="400" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9JOyqpBVN2uxr1GvDzql-127" value="RUPD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="319" y="400" width="79.57" height="40" as="geometry" />
+          <mxGeometry x="180" y="400" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-130" value="&lt;b&gt;&lt;i&gt;2k&lt;/i&gt;&lt;/b&gt; blocks required" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="1040" y="280" width="79" height="40" as="geometry" />
@@ -207,6 +204,18 @@
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-142" value="M&lt;br&gt;I&lt;br&gt;R" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="159.57" y="400" width="20.43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOyqpBVN2uxr1GvDzql-144" value="RUPD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="920" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9JOyqpBVN2uxr1GvDzql-145" value="" style="endArrow=classic;html=1;fontSize=17;strokeWidth=2;dashed=1;dashPattern=1 1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919" y="370" as="sourcePoint" />
+            <mxPoint x="919" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JOyqpBVN2uxr1GvDzql-147" value="Reward calc started" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="940" y="332.5" width="73.79" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
