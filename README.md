@@ -8,6 +8,9 @@ Click on the selected diagram to open it in [Draw.io](https://draw.io)
 > Found some other Shelley related diagrams here:
 https://github.com/deshawes/shelley-mud-maps/
 
+## Transitions
+[![TrasnitionsDetails](images/Transitions_details.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransitions_details.drawio)
+
 
 ## Shelley Blocks
 [![ShelleyBlock](images/ShelleyBlock.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyBlock.drawio)
