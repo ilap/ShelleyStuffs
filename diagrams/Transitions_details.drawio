@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-15T00:51:08.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="cW-21ujd2lnQ1owBY6GN" version="13.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-15T00:51:30.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="6g91tm_yf69tk537KeTL" version="13.2.4" type="github">
   <diagram id="DhZqUfJ76sKSV6iJou7Q" name="Page-1">
     <mxGraphModel dx="1181" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -154,7 +154,7 @@
         <mxCell id="9JOyqpBVN2uxr1GvDzql-119" value="&lt;b&gt;Go:&lt;/b&gt;&amp;nbsp;snapshot can be used in reward calc" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="804.5" y="260" width="235.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9JOyqpBVN2uxr1GvDzql-120" value="&lt;b&gt;Set:&lt;/b&gt;&amp;nbsp;most recent snapshot" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=40;" vertex="1" parent="1">
+        <mxCell id="9JOyqpBVN2uxr1GvDzql-120" value="&lt;b&gt;Set: &lt;/b&gt;epoch snapshot" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="480" y="260" width="161" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9JOyqpBVN2uxr1GvDzql-121" value="Transitions for &lt;br&gt;Reward Caclulation:&lt;br&gt;- EPOCH&lt;br&gt;&lt;div&gt;&lt;span&gt;- RUPD&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;opacity=40;" vertex="1" parent="1">
