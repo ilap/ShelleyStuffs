@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-19T05:51:41.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="G0qT_lqmxRKAI04QrZuN" version="13.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-19T06:51:54.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ad8MVi9k9t0LLov6hhPd" version="13.2.6" type="github">
   <diagram id="o-6-cCsUGdHhvSfyFfvp" name="Page-1">
     <mxGraphModel dx="1050" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="l2yK3TH7M7PTGYh5xhXL-2" value="cardano-node" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="524.5" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l2yK3TH7M7PTGYh5xhXL-3" value="cardano-cli&lt;br&gt;cardano-explorer&lt;br&gt;&lt;span&gt;wallet etc.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="l2yK3TH7M7PTGYh5xhXL-3" value="cardano-cli&lt;br&gt;cardano-explorer&lt;br&gt;&lt;span&gt;cardano-wallet etc.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2yK3TH7M7PTGYh5xhXL-4" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="l2yK3TH7M7PTGYh5xhXL-1" target="l2yK3TH7M7PTGYh5xhXL-2">
@@ -41,10 +41,10 @@
         <mxCell id="l2yK3TH7M7PTGYh5xhXL-9" value="chain-sync&lt;br&gt;local-tx-submission" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="120" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l2yK3TH7M7PTGYh5xhXL-10" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="l2yK3TH7M7PTGYh5xhXL-10" value="Full Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="560" y="40" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="l2yK3TH7M7PTGYh5xhXL-11" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="l2yK3TH7M7PTGYh5xhXL-11" value="Full Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="320" y="40" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l2yK3TH7M7PTGYh5xhXL-12" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
