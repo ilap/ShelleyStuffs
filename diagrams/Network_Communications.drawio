@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-21T00:28:55.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="4ANyvLCTX6XuDnMTqOYJ" version="13.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-21T02:01:30.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="-m66EqGDpz7vMlITBbqR" version="13.3.0" type="github">
   <diagram id="o-6-cCsUGdHhvSfyFfvp" name="Page-1">
-    <mxGraphModel dx="1216" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1166" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -395,13 +395,13 @@
         <mxCell id="Vj0UT3delDftL0-DLVxF-136" value="Not used" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontSize=12;opacity=80;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="560" y="676" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Vj0UT3delDftL0-DLVxF-137" value="" style="shape=flexArrow;endArrow=classic;html=1;opacity=30;fillColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="Vj0UT3delDftL0-DLVxF-44">
+        <mxCell id="Vj0UT3delDftL0-DLVxF-137" value="" style="shape=flexArrow;endArrow=classic;html=1;opacity=30;fillColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Vj0UT3delDftL0-DLVxF-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="505" y="526" as="sourcePoint" />
             <mxPoint x="715" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vj0UT3delDftL0-DLVxF-138" value="submit transactions (Pushes)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="Vj0UT3delDftL0-DLVxF-137" vertex="1" connectable="0">
+        <mxCell id="Vj0UT3delDftL0-DLVxF-138" value="forward those transactions that are &lt;br&gt;queried as txids by the responder and&amp;nbsp;&lt;br&gt;exist in the client&#39;/initiators mempool" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="Vj0UT3delDftL0-DLVxF-137" vertex="1" connectable="0">
           <mxGeometry x="0.0047" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
