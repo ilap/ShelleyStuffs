@@ -9,9 +9,13 @@ __Disclaimer__: These diagrams are not accurate, even they can be completely wro
 > Found some other Shelley related diagrams here:
 https://github.com/deshawes/shelley-mud-maps/
 
+## Network Communications
+[![TrasnitionsDetails](/images/Shelley_Network_Communications.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FNetwork_Communications.drawio)
+
 ## Transitions
 [![TrasnitionsDetails](images/Transitions_details.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransitions_details.drawio)
 
+> It turned out that the stability window is _3k/f_ instead of _2k_
 
 ## Shelley Blocks
 [![ShelleyBlock](images/ShelleyBlock.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyBlock.drawio)
