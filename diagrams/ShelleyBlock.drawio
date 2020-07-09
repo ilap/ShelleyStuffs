@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-09T00:27:12.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="iiap5N2riatjBTPsjXFf" version="13.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-09T00:36:51.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="vg98WJmf2gJkq52jzCyf" version="13.4.0" type="github">
   <diagram id="uTPT8sLcpa1e0BykbdLk" name="Page-1">
-    <mxGraphModel dx="1257" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,7 +121,7 @@
         <mxCell id="0y1YGnhRQW68st4rbFYn-88" value="&lt;font style=&quot;font-size: 16px&quot;&gt;B&lt;br&gt;l&lt;br&gt;o&lt;br&gt;c&lt;br&gt;k&lt;br&gt;&amp;nbsp;&lt;br&gt;B&lt;br&gt;o&lt;br&gt;d&lt;br&gt;y&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="129.38" y="581.75" width="30" height="578.25" as="geometry" />
         </mxCell>
-        <mxCell id="0y1YGnhRQW68st4rbFYn-90" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Signature&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;opacity=60;" parent="1" vertex="1">
+        <mxCell id="0y1YGnhRQW68st4rbFYn-90" value="&lt;font style=&quot;font-size: 12px&quot;&gt;KES Signature&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;opacity=60;" parent="1" vertex="1">
           <mxGeometry x="171.75" y="530" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0y1YGnhRQW68st4rbFYn-101" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;opacity=60;fontStyle=1" parent="1" vertex="1">
