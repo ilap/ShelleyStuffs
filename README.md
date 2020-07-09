@@ -9,8 +9,12 @@ __Disclaimer__: These diagrams are not accurate, even they can be completely wro
 > Found some other Shelley related diagrams here:
 https://github.com/deshawes/shelley-mud-maps/
 
+## Shelley Signing Keys
+
+[![SigningKeys](/images/SigningKeyTypes.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FEd25519%20Types.drawio)
+
 ## Network Communications
-[![TrasnitionsDetails](/images/Shelley_Network_Communications.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FNetwork_Communications.drawio)
+[![Network Communications](/images/Shelley_Network_Communications.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FNetwork_Communications.drawio)
 
 ## Transitions
 [![TrasnitionsDetails](images/Transitions_details.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransitions_details.drawio)
