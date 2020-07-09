@@ -18,6 +18,24 @@ https://github.com/deshawes/shelley-mud-maps/
 > It turned out that the stability window is _3k/f_ instead of _2k_
 
 ## Shelley Blocks
+
+A shelley **block** contains:
+- **block header**, which contains
+    - **block header body** and the
+    - **block header body signature** (cold key signature)
+- and **block body** which is simply the **transactions** of the block.
+
+Transactions contains
+- **transaction body**
+- **transaction witness set** and an optional
+- **transaction metadata** 
+
+See details in the picture below.
+
+References: 
+- [Shelley CDDL](https://github.com/input-output-hk/cardano-ledger-specs/blob/master/shelley/chain-and-ledger/executable-spec/cddl-files/shelley.cddl)
+- [Ledger Spec Page 70](https://hydra.iohk.io/build/2754342/download/1/ledger-spec.pdf)
+
 [![ShelleyBlock](images/ShelleyBlock.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyBlock.drawio)
 
 ## Shelley Keys and Addresses
