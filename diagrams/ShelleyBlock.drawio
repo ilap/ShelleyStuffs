@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-09T00:36:51.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="vg98WJmf2gJkq52jzCyf" version="13.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T02:04:27.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Wb8rvzU17kuQwhPJvwtS" version="13.6.2" type="github">
   <diagram id="uTPT8sLcpa1e0BykbdLk" name="Page-1">
-    <mxGraphModel dx="1257" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,10 +31,10 @@
         <mxCell id="0y1YGnhRQW68st4rbFYn-6" value="Block Issuer: VRF Verification Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="209.85000000000002" y="160" width="267.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0y1YGnhRQW68st4rbFYn-9" value="Block Nonce: Sign?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+        <mxCell id="0y1YGnhRQW68st4rbFYn-9" value="Block Eta: seedEta Nonce: Sign" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="210" y="190" width="267.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0y1YGnhRQW68st4rbFYn-12" value="Leader Election Value or Proof: 0..1 or Sig?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+        <mxCell id="0y1YGnhRQW68st4rbFYn-12" value="Leader Election Value/Proof: seedL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="209.85000000000002" y="220" width="267.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0y1YGnhRQW68st4rbFYn-14" value="Block Body Size : N" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
@@ -307,10 +307,10 @@
         <mxCell id="0y1YGnhRQW68st4rbFYn-7" value="Block Number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="209.85" y="40" width="267.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j6M4M1rgheEFeJvFUjtu-2" value="Block Slot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" vertex="1" parent="1">
-          <mxGeometry x="209.85" y="70" width="267.5" height="30" as="geometry" />
+        <mxCell id="j6M4M1rgheEFeJvFUjtu-2" value="Block Slot Number" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+          <mxGeometry x="210.85" y="70" width="267.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j6M4M1rgheEFeJvFUjtu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0y1YGnhRQW68st4rbFYn-4" target="1TYJ5KsrgFMn8mMMUmhc-15">
+        <mxCell id="j6M4M1rgheEFeJvFUjtu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0y1YGnhRQW68st4rbFYn-4" target="1TYJ5KsrgFMn8mMMUmhc-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="115" />
