@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T02:04:27.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="Wb8rvzU17kuQwhPJvwtS" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-13T00:56:11.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="XlZaiylXFtz___mC-hg3" version="13.7.8" type="github">
   <diagram id="uTPT8sLcpa1e0BykbdLk" name="Page-1">
-    <mxGraphModel dx="1241" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1322" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="0y1YGnhRQW68st4rbFYn-6" value="Block Issuer: VRF Verification Key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="209.85000000000002" y="160" width="267.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0y1YGnhRQW68st4rbFYn-9" value="Block Eta: seedEta Nonce: Sign" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+        <mxCell id="0y1YGnhRQW68st4rbFYn-9" value="Block Header Eta: seedEta Nonce: Sign" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="210" y="190" width="267.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0y1YGnhRQW68st4rbFYn-12" value="Leader Election Value/Proof: seedL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
