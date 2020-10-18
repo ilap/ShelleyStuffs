@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-13T05:51:32.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="6G94r9bNX3vVQ3A3zInR" version="13.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-18T23:41:03.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.99 Safari/537.36" etag="JEbVwHQyhDX11p3eGTmG" version="13.7.9" type="github">
   <diagram id="uTPT8sLcpa1e0BykbdLk" name="Page-1">
-    <mxGraphModel dx="1322" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1192" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,10 +31,10 @@
         <mxCell id="0y1YGnhRQW68st4rbFYn-6" value="Block Issuer: VRF Verification Key (bheaderVrfVk)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="209.85000000000002" y="160" width="267.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0y1YGnhRQW68st4rbFYn-9" value="Block Header Eta: seedEta Nonce: (bheaderEta)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+        <mxCell id="0y1YGnhRQW68st4rbFYn-9" value="Block Header Eta: (&lt;b&gt;bheaderEta&lt;/b&gt;)&lt;br&gt;(&lt;b&gt;seedEta slot eta0&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="210" y="190" width="267.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0y1YGnhRQW68st4rbFYn-12" value="Leader Election Value/Proof: seedL (bheaderL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+        <mxCell id="0y1YGnhRQW68st4rbFYn-12" value="Leader Election Value: (&lt;b&gt;bheaderL&lt;/b&gt;)&lt;br&gt;(&lt;b&gt;seedL slot eta0&lt;/b&gt;)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
           <mxGeometry x="209.85000000000002" y="220" width="267.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0y1YGnhRQW68st4rbFYn-14" value="Block Body Size : N (bsize)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
@@ -318,8 +318,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oFHNslJipIBElJBnDcp6-1" value="&lt;div&gt;&lt;i&gt;&lt;b&gt;bheaderEta&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;i&gt;The nonce is simple the blake2b_256 hash of the bheaderEta&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;opacity=40;" vertex="1" parent="1">
+        <mxCell id="oFHNslJipIBElJBnDcp6-1" value="&lt;div&gt;&lt;i&gt;&lt;b&gt;bheaderEta&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;i&gt;The nonce is simple the blake2b_256 hash of the bheaderEta&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;opacity=40;" parent="1" vertex="1">
           <mxGeometry x="535" y="540" width="275" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A8hBHOlWfiCrwhcsEIuO-1" value="&lt;b&gt;bheaderEta &lt;/b&gt;and &lt;b&gt;bheaderL&lt;/b&gt; contains the&amp;nbsp;&lt;br&gt;- &lt;b&gt;VRF Output&lt;/b&gt; and the&amp;nbsp;&lt;br&gt;- &lt;b&gt;VRF Proof&lt;/b&gt;&lt;br&gt;e.g. bheaderL = VRF Output + VRF Proof&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;seedEta = 0&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;seedL = 1&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="505.13" y="160" width="240" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
