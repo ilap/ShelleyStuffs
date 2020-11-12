@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T02:12:25.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="phIoNyATvWkJoA4flu0S" version="13.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T05:50:44.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="p84fgwXiccVxdn3Q63N1" version="13.9.3" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="714" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1249" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,14 +10,14 @@
         <mxCell id="wipezXwYWzIHXPL2F_X1-1817" value="Wallet Address specification" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;opacity=25;verticalAlign=top;fontColor=#666666;fillColor=#FF9999;" vertex="1" parent="1">
           <mxGeometry x="40" y="677.5" width="680" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wipezXwYWzIHXPL2F_X1-1815" value="Key Derivation Specification&lt;br&gt;BIP32-ED25519&lt;br&gt;BIP32" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;opacity=25;verticalAlign=top;fontColor=#666666;fillColor=#66CC00;" vertex="1" parent="1">
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1815" value="Key Derivation Specification&lt;br&gt;BIP32-ED25519 for cardano and some otjher blockchains&lt;br&gt;BIP32 for bitcoin and its derivatives" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;opacity=25;verticalAlign=top;fontColor=#666666;fillColor=#66CC00;" vertex="1" parent="1">
           <mxGeometry x="40" y="377.5" width="680" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wipezXwYWzIHXPL2F_X1-1813" value="Master Key Generation&lt;br&gt;BIP32-ED25519,&amp;nbsp;&lt;br&gt;BIP32, Icarus, Yoroi, Daedalus&lt;br&gt;Ledger, Trezor, SLIP10, etc." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;opacity=25;verticalAlign=top;fontColor=#666666;fillColor=#FF3399;" vertex="1" parent="1">
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1813" value="Master Key Generation&lt;br&gt;SLIP-0023&lt;br&gt;BIP32-ED25519,&amp;nbsp;&lt;br&gt;BIP32, Icarus, Yoroi, Daedalus&lt;br&gt;Ledger, Trezor, SLIP10, etc." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;opacity=25;verticalAlign=top;fontColor=#666666;fillColor=#FF3399;" vertex="1" parent="1">
           <mxGeometry x="40" y="257" width="680" height="90.5" as="geometry" />
         </mxCell>
-        <mxCell id="wipezXwYWzIHXPL2F_X1-1812" value="Seed Generation Specification&lt;br&gt;&lt;span&gt;BIP39&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;opacity=25;fillColor=#F0B45B;verticalAlign=top;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="40" y="137.5" width="680" height="90" as="geometry" />
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1812" value="Seed Generation Specification&lt;br&gt;&lt;span&gt;BIP39&lt;br&gt;SLIP39&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;opacity=25;fillColor=#F0B45B;verticalAlign=top;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="680" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1804" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#F08705;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="wipezXwYWzIHXPL2F_X1-1779" target="wipezXwYWzIHXPL2F_X1-1787">
           <mxGeometry relative="1" as="geometry">
@@ -179,6 +179,9 @@
             <mxPoint x="37" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1852" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#12AAB5;strokeWidth=3;fontSize=12;fontColor=#666666;" edge="1" parent="1" source="wipezXwYWzIHXPL2F_X1-1806" target="wipezXwYWzIHXPL2F_X1-1830">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1806" value="wallet address" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="240" y="727.5" width="120" height="30" as="geometry" />
         </mxCell>
@@ -199,37 +202,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1830" value="add1xs2hc953hvh309tw45" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="905" y="722.5" width="225" height="30" as="geometry" />
+          <mxGeometry x="470" y="727.5" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1840" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#12AAB5;strokeWidth=3;fontSize=12;fontColor=#666666;" edge="1" parent="1" source="wipezXwYWzIHXPL2F_X1-1831" target="wipezXwYWzIHXPL2F_X1-1835">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1831" value="witness" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#DE0000;" vertex="1" parent="1">
-          <mxGeometry x="740" y="537.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="750.5" y="691.25" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1832" value="0xf32443..." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#71C974;" vertex="1" parent="1">
-          <mxGeometry x="935" y="600" width="205" height="30" as="geometry" />
+          <mxGeometry x="945.5" y="753.75" width="205" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wipezXwYWzIHXPL2F_X1-1833" value="1b" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#DB6EC5;" vertex="1" parent="1">
-          <mxGeometry x="905" y="600" width="30" height="30" as="geometry" />
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1833" value="0x80" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#DB6EC5;" vertex="1" parent="1">
+          <mxGeometry x="915.5" y="753.75" width="35" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1835" value="vkey" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="905" y="537.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="915.5" y="691.25" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1839" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#12AAB5;strokeWidth=3;fontSize=12;fontColor=#666666;" edge="1" parent="1" source="wipezXwYWzIHXPL2F_X1-1837" target="wipezXwYWzIHXPL2F_X1-1833">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1837" value="chain address" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#71C974;" vertex="1" parent="1">
-          <mxGeometry x="740" y="600" width="110" height="30" as="geometry" />
+          <mxGeometry x="750.5" y="753.75" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1838" value="signature" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
-          <mxGeometry x="1025" y="537.5" width="115" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="wipezXwYWzIHXPL2F_X1-1842" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeWidth=3;fontSize=12;fontColor=#666666;strokeColor=#3399FF;" edge="1" parent="1" source="wipezXwYWzIHXPL2F_X1-1841" target="wipezXwYWzIHXPL2F_X1-1830">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wipezXwYWzIHXPL2F_X1-1841" value="wallet address" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="740" y="722.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="1035.5" y="691.25" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wipezXwYWzIHXPL2F_X1-1843" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeWidth=3;fontSize=12;fontColor=#666666;strokeColor=#12AAB5;" edge="1" parent="1" source="1772" target="1772">
           <mxGeometry relative="1" as="geometry">
@@ -244,6 +241,27 @@
           <mxGeometry x="-0.4544" y="3" relative="1" as="geometry">
             <mxPoint x="-97.64" y="13.5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1846" value="The BIP-0039 is the most popular seed generator.&lt;br style=&quot;font-size: 12px;&quot;&gt;" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;opacity=60;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="43.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1848" value="The master node key generation for bitcoin and its derivatives uses BIP-0032, while the ed25519 curve based Cardano blockchain&#39;s wallet implementations use different type of &lt;b style=&quot;font-size: 12px;&quot;&gt;master key generation&lt;/b&gt;&amp;nbsp;functions, this causes a lot of wallet incompatibilities.&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;The most recommended specification should be the SLIP-0023 for &lt;b style=&quot;font-size: 12px;&quot;&gt;master key generation&lt;/b&gt; and the &lt;b style=&quot;font-size: 12px;&quot;&gt;child key derivation, though Daedalus uses different master key generation.&lt;/b&gt;" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;labelBackgroundColor=none;opacity=60;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="740" y="10" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1849" value="The child-key derivation based on the &lt;b style=&quot;font-size: 12px;&quot;&gt;BIP32-ED25519&lt;/b&gt; Specification, that was intended to have similar child key derivation scheme like the Bitcoin&#39;s BIP-0032 specification.&lt;br style=&quot;font-size: 12px;&quot;&gt;" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;opacity=60;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="140" width="420.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1850" value="&lt;b style=&quot;font-size: 12px&quot;&gt;The on-chain key identifiers&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;/b&gt;The extended public keys on he chain can be identified by the &lt;b style=&quot;font-size: 12px&quot;&gt;blake2b_224&lt;/b&gt;&amp;nbsp;from which the &lt;b style=&quot;font-size: 12px&quot;&gt;on-chain&amp;nbsp;&lt;/b&gt;addresses are generated by using a one byte &lt;b style=&quot;font-size: 12px&quot;&gt;address&amp;nbsp;&lt;/b&gt;prefix.&lt;br style=&quot;font-size: 12px&quot;&gt;Wallets uses this structure for generating&amp;nbsp; the human readable bech32 based wallet addresses and the CBOR representation of the transaction outputs." style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelBackgroundColor=none;opacity=60;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1851" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Key tree building&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/b&gt;Building the key tree is mainly wallet implementation specific, in which each wallets decide how to derive the key tree using the BIP32-ED25519 key derivation specification.&lt;br style=&quot;font-size: 12px;&quot;&gt;Mainly, the BIP44&#39;s (&lt;b style=&quot;font-size: 12px;&quot;&gt;m/44&#39;/1815&#39;/0&#39;&lt;/b&gt;)&amp;nbsp;and the the CIP1852&#39; (&lt;b style=&quot;font-size: 12px;&quot;&gt;m/1852&#39;/1815&#39;/0&#39;&lt;/b&gt;) are used." style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;opacity=60;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="421" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1853" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Public key exposes&lt;/b&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;As the addresses are stored as hashes of the public keys on the chain, then therefore they&#39;re not exposed until the corresponding &lt;b style=&quot;font-size: 12px;&quot;&gt;UtxOs&lt;/b&gt; are&amp;nbsp;spent. They are exposed as witnesses which contains the &lt;b style=&quot;font-size: 12px;&quot;&gt;extended public keys&lt;/b&gt; (&lt;b style=&quot;font-size: 12px;&quot;&gt;vkey&lt;/b&gt;) and the signature of the transactions txAuth part &lt;b style=&quot;font-size: 12px;&quot;&gt;message&lt;/b&gt;." style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;strokeColor=#d6b656;labelBackgroundColor=none;opacity=60;align=left;verticalAlign=top;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="739.5" y="400" width="421" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wipezXwYWzIHXPL2F_X1-1854" value="&lt;b&gt;Shelley Derivated Key Types&lt;/b&gt;&lt;br&gt;&lt;br&gt;seed (S): 128-512 but entropy:&lt;br&gt;&lt;b&gt;master key a.ka. m(96)&lt;/b&gt;: Is and extended private key derived from &lt;b&gt;S &lt;/b&gt;seed&lt;br&gt;&lt;b&gt;extended private key a.k.a esk(96)&lt;/b&gt;: extended key(64) || chain code (32)&lt;br&gt;&lt;b&gt;extended public key epk(64)&lt;/b&gt;: public key(32) || chain code (32)&lt;br&gt;&lt;b&gt;key identifier(28)&lt;/b&gt;: blake2b_224 hash of the extended public key&lt;br&gt;&lt;b&gt;address prefix(1)&lt;/b&gt;: is a 1 byte address specifier&lt;br&gt;&lt;b&gt;chain address(29)&lt;/b&gt;: address prefix (1) || key identifier&lt;b&gt;s&lt;/b&gt;(28) based on the spec&lt;br&gt;&lt;b&gt;wallett address&lt;/b&gt;: bech32 encoding of the chain address /w a freely chosen hrp (human-readable part)." style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;opacity=60;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="740" y="490" width="420" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
