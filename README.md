@@ -50,7 +50,7 @@ References:
 ## Shelley Transaction (Simple)
 [![TransactionSimple](images/Transaction_simple.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransaction_simple.drawio)
 
-## CArdano Wallet Specification
+## Cardano Wallet Specification
 
 [![WalletSpecification](images/Wallet_Specification.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FWallet_Specification.drawio)
 
