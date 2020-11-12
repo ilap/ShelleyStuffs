@@ -11,13 +11,13 @@ https://github.com/deshawes/shelley-mud-maps/
 
 ## Shelley Signing Keys
 
-[![SigningKeys](/images/SigningKeyTypes.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FEd25519%20Types.drawio)
+[![SigningKeys](/images/SigningKeyTypes.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FEd25519%20Types.drawio)
 
 ## Network Communications
-[![Network Communications](/images/Shelley_Network_Communications.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FNetwork_Communications.drawio)
+[![Network Communications](/images/Shelley_Network_Communications.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FNetwork_Communications.drawio)
 
 ## Transitions
-[![TrasnitionsDetails](images/Transitions_details.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransitions_details.drawio)
+[![TrasnitionsDetails](images/Transitions_details.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransitions_details.drawio)
 
 > It turned out that the stability window is _3k/f_ instead of _2k_
 
@@ -42,18 +42,18 @@ References:
 - [Current implementation](https://github.com/input-output-hk/cardano-ledger-specs/blob/master/shelley/chain-and-ledger/executable-spec/src/Shelley/Spec/Ledger/BlockChain.hs)
 
 
-[![ShelleyBlock](images/ShelleyBlock.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyBlock.drawio)
+[![ShelleyBlock](images/ShelleyBlock.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyBlock.drawio)
 
 ## Shelley Keys and Addresses
-[![ShelleyKeyAndAddresses](images/ShelleyKeyAndAddresses.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyKeyAndAddresses.drawio)
+[![ShelleyKeyAndAddresses](images/ShelleyKeyAndAddresses.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FWallet_Specification.drawio)
 
 ## Shelley Transaction (Simple)
-[![TransactionSimple](images/Transaction_simple.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FTransaction_simple.drawio)
+[![TransactionSimple](images/Transaction_simple.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2Fransaction_simple.drawio)
 
 ## Cardano Wallet Specification
 
-[![WalletSpecification](images/Wallet_Specification.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FWallet_Specification.drawio)
+[![WalletSpecification](images/Wallet_Specification.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FWallet_Specification.drawio)
 
 ## HD Wallets 
 
-[![HD Wallets](images/HW_wallets.png)](https://app.diagrams.net/#Hilap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FHW_wallets.drawio)
+[![HD Wallets](images/HW_wallets.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FHW_wallets.drawio)
