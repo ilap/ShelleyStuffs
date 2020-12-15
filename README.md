@@ -13,6 +13,10 @@ https://github.com/deshawes/shelley-mud-maps/
 
 [![SigningKeys](/images/SigningKeyTypes.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FEd25519%20Types.drawio)
 
+References:
+- [BIP32-ED25519 Presentation](https://datatracker.ietf.org/meeting/interim-2017-cfrg-01/materials/slides-interim-2017-cfrg-01-sessa-bip32-ed25519/)
+- [BIP32-ED25519 Paper](https://drive.google.com/open?id=0ByMtMw2hul0EMFJuNnZORDR2NDA)
+
 ## Network Communications
 [![Network Communications](/images/Shelley_Network_Communications.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FNetwork_Communications.drawio)
 
