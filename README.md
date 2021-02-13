@@ -19,6 +19,8 @@ Initial shelley **transaction** contains:
 - **transaction witness set**, a set of different type of witnesses and
 - **transaction metadata**, a placeholder for optional metadata.
 
+The following iterative updates, by Hard Fork Combinator, had been or will be made to switch to the Goguen era:
+
 [![ShelleyTransaction](https://github.com/ilap/ShelleyStuffs/blob/master/images/ShelleyTransactionChanges4Gougen.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FShelleyTransactionChanges4Gougen.drawio)
 
 References: 
