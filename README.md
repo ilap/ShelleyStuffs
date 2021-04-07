@@ -27,7 +27,7 @@ The following iterative updates, by Hard Fork Combinator, had been or will be ma
 
 - [MetaData](https://github.com/input-output-hk/cardano-node/blob/b82e6c780937a8e9570915248c3d825e8211ab3d/doc/reference/tx-metadata.md)
 - [Simple Script](https://github.com/input-output-hk/cardano-node/blob/b82e6c780937a8e9570915248c3d825e8211ab3d/doc/reference/simple-scripts.md)
-- [Multi Aset](https://github.com/input-output-hk/cardano-node/blob/b82e6c780937a8e9570915248c3d825e8211ab3d/doc/reference/multi-assets.md)
+- [Multi Asset](https://github.com/input-output-hk/cardano-node/blob/b82e6c780937a8e9570915248c3d825e8211ab3d/doc/reference/multi-assets.md)
 - [Alonzo Ledger Changes](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/specs.alonzo-ledger/latest/download/1/alonzo-changes.pdf)
 - [Plutus Core Report](https://hydra.iohk.io/job/Cardano/plutus/darwin.docs.plutus-report/latest/download-by-type/doc-pdf/plutus)
 - [Multi Asset (Gougen) CDDL](https://github.com/input-output-hk/cardano-ledger-specs/blob/master/shelley-ma/shelley-ma-test/cddl-files/shelley-ma.cddl)
