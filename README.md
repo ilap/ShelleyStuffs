@@ -49,6 +49,7 @@ The following iterative updates, by Hard Fork Combinator, had been or will be ma
 References:
 - [BIP32-ED25519 Presentation](https://datatracker.ietf.org/meeting/interim-2017-cfrg-01/materials/slides-interim-2017-cfrg-01-sessa-bip32-ed25519/)
 - [BIP32-ED25519 Paper](https://drive.google.com/open?id=0ByMtMw2hul0EMFJuNnZORDR2NDA)
+- [Key REcovery Attack on BIP32-ED2559](https://forum.w3f.community/t/key-recovery-attack-on-bip32-ed25519)
 
 ## Network Communications
 [![Network Communications](/images/Shelley_Network_Communications.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FNetwork_Communications.drawio)
