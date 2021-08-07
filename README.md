@@ -42,6 +42,53 @@ The following iterative updates, by Hard Fork Combinator, had been or will be ma
 - [FAQ](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/faq.rst)
 - [Glossary](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/glossary.rst)
 
+### Certificates
+#### Operational Certificate
+
+- VKey_ev - operational hot key
+- n - Certificate issue nuber (cold counter)
+- c0 - start KES Period and
+- Cold key Signature
+- Cold verification key
+
+
+#### Pool Certificate
+It is based only on pool param structure
+``` json
+{
+    "poolParams": {
+        "publicKey": "a3bdfcc9630daa7d1da3c1efaa611bdd1f507e62bde8aca8936a070a",
+        "vrf": "53cfce04b70accb948250f2c7b18d07ede4db525464612368f0d34327dafd415",
+        "pledge": 250000000000,
+        "cost": 340000000,
+        "margin": 2.99e-2,
+        "rewardAccount": {
+            "network": "Testnet",
+            "credential": {
+                "key hash": "842dd0ee48839c992a9cd5f1a7b34b40a1fa3b12e6743e3adcf07dba"
+            }
+        },
+        "owners": [
+            "842dd0ee48839c992a9cd5f1a7b34b40a1fa3b12e6743e3adcf07dba"
+        ],
+        "relays": [
+            {
+                "single host name": {
+                    "port": 8900,
+                    "dnsName": "relays-alonzo.poolunder.com"
+                }
+            }
+        ],
+        "metadata": {
+            "url": "https://www.poolunder.com/testnet_undr.json",
+            "hash": "d808d07705e1e6a478edc6501f134bd9f5c916c6af0c5ca002dbc16ca380e7fa"
+        }
+    },
+    "futurePoolParams": null,
+    "retiring": null
+}
+```
+
 ## Shelley Signing Keys
 
 [![SigningKeys](/images/SigningKeyTypes.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FEd25519%20Types.drawio)
