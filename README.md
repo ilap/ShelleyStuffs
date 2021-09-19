@@ -12,6 +12,10 @@ https://github.com/deshawes/shelley-mud-maps/
 ## Min UTxO ADA calculation
 [![ShelleyTransaction](https://github.com/ilap/ShelleyStuffs/blob/master/images/minUTXO.drawio.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FminUTXO.drawio)
 
+### References
+- [Alonzo UTxO Rules](https://github.com/input-output-hk/cardano-ledger-specs/blob/3d6edf3981a0f1b762e4dfeaecd7eecb755ea928/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Utxo.hs#L100)
+- [Min-UtxO](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/min-utxo.rst)
+
 
 ## Shelley Transaction Changes
 
@@ -43,7 +47,6 @@ The following iterative updates, by Hard Fork Combinator, had been or will be ma
 - [Policies](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/policies.rst)
 - [Token Bundles](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/token-bundles.rst)
 - [Features](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/features.rst)
-- [Min-UtxO](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/min-utxo.rst)
 - [FAQ](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/faq.rst)
 - [Glossary](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/glossary.rst)
 
