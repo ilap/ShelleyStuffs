@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T22:24:31.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="QXHhVJ2pNy0sANVC0aSs" version="14.9.2" type="github"><diagram id="-FdmNkB4sGDrSg3uCOA3" name="Page-1">5Zhbb5swFMc/TaRsUitzh8c2Tdc9dJ2UbZX2ZrAJaIAjYxqyT79jMCQEepMI7dQXsI8v4N/f5/jAzFik5ReON9EtIzSZ6YiUM+Nqpuua4Zhwk5ZdbXE0tzaseUxUp71hFf+lyoiUtYgJzTsdBWOJiDddY8CyjAaiY8Ocs223W8iS7lM3eE17hlWAk771PiYiUlbN9vYNNzReR+rRru7UDSluOquV5BEmbHtgMpYzY8EZE3UpLRc0kfAaLvW460da2xfjNBMvGbC0VpGzvb02Td/Dt9+K9eL3w5ma5QEnhVrwjxLqNziP1FuLXYOCsyIjVM6GZsblNooFXW1wIFu3ID7YIpEmUNOgGMZJsmAJ49VYg2DqhgHYc8HZH3rQYgcu9UNowUm8zsAWwHooNF6qV6Nc0PLRNWstSdiClKVU8B10UQNcxX7XrW73ShqNPNGBiIayYbV51u3Ee75QUIhfgVvv4f4KSMtxUVvUJeYQalf3Dds+EWoTPcvanBK10UN9QQineT4qbKoBbmcItmc7Bj4V7KN9raO33thWj/YVFkUqHz92KAnDUA8GQwmxfds6GfIXMG91mYS52WP+qyqOCtsN6DBs37VMC00UTIZgm5PCtnuwC1GyZQZzy6TlPhYRKwQIAJ2qdiQTATS3ZV0HJkgz26L5aWSPoPYjHuF4PjqVSEcO0QacTsSfUiO3p1FVrJLKRpW9HvOsSL/HBM4D9FnK5YIoNk4l6szPNy2j/9uTjkXyvDd2JK0ftgIWZx2R9HEToneRew4lRN6k4PtnNMECy1S/A19+eaF5rYJyFXAsNG7Ieh+aGPbAGT5pyNL65wom+C5Ldj9/lHdKl7nu9ekDBPE89vGZWQNhXrMmZeZ8kAjiNC77BPppQ0j/hP3wWVCb9jwh0rRpkOb1VLqoRolIOgikPT7lMu2BNcKV0w18FksipH4bHd1QvFHutGVcmlnYT47UfLZ55seimi6QggWiqOaNz+k53O6yg2nivLm4Z/5OVMGtHg97ASUsW5+/XaBzjpRsfeu5r2r39UpCdf/nr2o7+H9qLP8B</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-19T03:29:35.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="tEi8GCeNfxmQkk9ITnTL" version="15.0.4" type="github">
+  <diagram id="-FdmNkB4sGDrSg3uCOA3" name="Page-1">
+    <mxGraphModel dx="1398" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LOttIvkN2JS158aLjb4N-37" value="60 policies with 1 token each with 32 bytes long tokenName&amp;nbsp; (583)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#9AC7BF;strokeColor=#005E5E;opacity=50;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="690" width="960" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-36" value="adaOnlyUTxOSize (29)" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#9AC7BF;strokeColor=#005E5E;opacity=50;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="800" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-19" value="UTxO Entry Size =&amp;nbsp; Utxo Entry Size without value + Value size + Data Hash size" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="960" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-4" value="UTxO Entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="900" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-3" value="Transaction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="260" y="40" width="900" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-5" value="UTxO Entry 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="60" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-4" value="TxIn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="180" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-8" value="valueSize = prefix + (numPids * 28 + numTokens * 12 + tokensNameLen + 7) ~/8&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" parent="1" vertex="1">
+          <mxGeometry x="200" y="640" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-14" value="coinSize = 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="880" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-15" value="dataHashSize = 10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="440" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-16" value="Example 1. &lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;Ada Only UTxO a.k.a adaOnlyUTxOSize (29)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="10" y="515" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-19" value="All the numbers are represented as HeapSize word of&amp;nbsp; the 64-bit architecture i.e. One word is is 8-byte (64-bit) long." style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="310" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-1" value="TxOut" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" vertex="1" parent="1">
+          <mxGeometry x="710" y="180" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-2" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="90" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-3" value="UTxO Entry N" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-5" value="TxIn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-1" value="Tx Hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" parent="1" vertex="1">
+          <mxGeometry x="260" y="240" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5Sh7wMF44b9aMNugCZv-2" value="Index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" parent="1" vertex="1">
+          <mxGeometry x="670" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-6" value="TxOut" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="710" y="220" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-7" value="Address" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="710" y="240" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-8" value="Value" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-9" value="data hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-10" value="UTxO Entry Size qithout Value&amp;nbsp; a.k.a utxoEntrySizeWithoutVal = 27 (6 + 7 + 14)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#9AC7BF;strokeColor=#005E5E;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-11" value="txInLen = 7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-12" value="prefix = 6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-13" value="txouWithoutVal = 14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;" vertex="1" parent="1">
+          <mxGeometry x="710" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-14" value="utxoEntrySizeWithoutVal = 27" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#9AC7BF;strokeColor=#005E5E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="396" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-15" value="Value" style="rounded=0;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-16" value="data hash" style="rounded=0;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="280" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-17" value="Value size = 2 or ?" style="rounded=0;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="396" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-18" value="DataHash size = 10 (2 + 8)" style="rounded=0;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="396" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-20" value="&lt;b style=&quot;font-size: 14px&quot;&gt;Example 2.&lt;/b&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;60 policy (28 bytes) with&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;1 token (12 bytes) each with&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;32 token length name of each token&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="10" y="630" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-21" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#9AC7BF;strokeColor=#005E5E;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-24" value="utxoEntrySizeWithoutVal = 27" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#9AC7BF;strokeColor=#005E5E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-25" value="coinSize = 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-26" value="utxoEntrySizeWithoutVal = 27" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#9AC7BF;strokeColor=#005E5E;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-27" value="valueSize = 546" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-28" value="dataHashsize = 10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="720" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-29" value="minUTxOAda Examples" style="text;whiteSpace=wrap;html=1;fontSize=16;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="10" y="460" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-30" value="&lt;span style=&quot;font-weight: normal&quot;&gt;minUTxOAda =&amp;nbsp;lovelacePerUTxOWord * adaOnlyUTxOSize&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&amp;nbsp;=&lt;/span&gt; 999978 Lovelaces = 0.999978 ADAs&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-33" value="&lt;span style=&quot;font-weight: normal&quot;&gt;minUTxOAda =&amp;nbsp;lovelacePerUTxOWord * ( utxoEntrySizeWithoutVal + valueSize + datumHashSize)&amp;nbsp; = 34482 * (27 + 546 +10) = 34482 * 583&lt;br&gt;= &lt;/span&gt;20,103,006 Lovelaces &lt;br&gt;= 20.103,006 ADAs&amp;nbsp;" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="920" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-34" value="&lt;span style=&quot;font-weight: normal&quot;&gt;valueSize =&amp;nbsp;6 + (60 * 28 + 60 * 12 + 60*32 + 7) ~/ 8&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;font-size: 14px&quot;&gt;= 546&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="640" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-38" value="Keep in mind, this representation of the transaction is only valid for calculating the minUTxOAda of an UTxO" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fontSize=15;fontColor=#FF0000;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-39" value="Ada only value size is 2 i.e. 16 bytes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LOttIvkN2JS158aLjb4N-40" value="Note: The lovelacePerUTxOWord which is currently 34482, is the minimum amount, in lovelace, that&amp;nbsp;&lt;br&gt;an UTxO need to have per its size in heap words (8-byte, 64-bit)." style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="550" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
