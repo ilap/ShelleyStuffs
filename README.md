@@ -9,6 +9,10 @@ __Disclaimer__: These diagrams are not accurate, even they can be completely wro
 > Found some other Shelley related diagrams here:
 https://github.com/deshawes/shelley-mud-maps/
 
+## Min UTxO ADA calculation
+[![ShelleyTransaction](https://github.com/ilap/ShelleyStuffs/blob/master/images/minUTXO.drawio.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FminUTXO.drawio)
+
+
 ## Shelley Transaction Changes
 
 __An Other Disclaimer__: This diagram is not accurate at all, so you all are welcome to contribute for correcting my mistakes.
