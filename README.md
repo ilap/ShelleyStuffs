@@ -14,7 +14,7 @@ https://github.com/deshawes/shelley-mud-maps/
 
 ### References
 - [Alonzo UTxO Rules](https://github.com/input-output-hk/cardano-ledger-specs/blob/3d6edf3981a0f1b762e4dfeaecd7eecb755ea928/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Utxo.hs#L100)
-- [Min-UtxO](https://github.com/input-output-hk/cardano-ledger-specs/tree/master/doc/explanations/min-utxo.rst)
+- [Min-UtxO](https://github.com/input-output-hk/cardano-ledger-specs/blob/51c044cafa350bf6626a89d9b4cb3d4788aaae34/doc/explanations/min-utxo-alonzo.rst)
 
 
 ## Shelley Transaction Changes
