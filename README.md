@@ -27,7 +27,7 @@ https://github.com/deshawes/shelley-mud-maps/
 > - the picture below an oversimplified description/diagram of the network.
 > - the transactions are cleared from the mempool (oversimplified explanation) by
 >   - validation of the received blocks (accepted)
->   - revalidation of the transactions in the mempool (rejected, expired etc.)
+>   - revalidation of the transactions in the mempool (rejected by expiration etc.)
 
 [![VirtualMempools.png](https://github.com/ilap/ShelleyStuffs/blob/master/images/VirtualMempools.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FVirtualMempools.drawio)
 
