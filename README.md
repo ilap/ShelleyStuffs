@@ -11,7 +11,7 @@ https://github.com/deshawes/shelley-mud-maps/
 
 ## Dynamic Global Mempool idea
 
-[![DynamicMempool.drawio.png](https://github.com/ilap/ShelleyStuffs/blob/master/images/DynamicMempool.drawio.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FVDynamicMempool.drawio)
+[![DynamicMempool.drawio.png](https://github.com/ilap/ShelleyStuffs/blob/master/images/DynamicMempool.drawio.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FDynamicMempool.drawio)
 
 
 ## Mempool from a different view
