@@ -9,6 +9,10 @@ __Disclaimer__: These diagrams are not accurate, even they can be completely wro
 > Found some other Shelley related diagrams here:
 https://github.com/deshawes/shelley-mud-maps/
 
+## Mempool from a different view
+
+[![VirtualMempools.png](https://github.com/ilap/ShelleyStuffs/blob/master/images/VirtualMempools.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FVirtualMempools.drawio)
+
 ## Plutus' Off-Chain Tx and On-Chain Context comparison
 
 [![Plutus_Tx_vs_Context.png](https://github.com/ilap/ShelleyStuffs/blob/master/images/Plutus_Tx_vs_Context.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FPlutus_Tx_vs_Context.drawio)
