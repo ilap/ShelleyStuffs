@@ -11,7 +11,7 @@ https://github.com/deshawes/shelley-mud-maps/
 
 ## Mempool from a different view
 
-- Isolated mempool's node(s) example: Daedalus wallets, API backend not (not aware of any of them)
+- Isolated mempool's node(s) example: Daedalus wallets, API backend (not aware of any existing yet using this, nor Blockforst, Adalite, Yoroi, CCwalet etc.)
     - Users won't experience blocking on transaction submissions from their client side (e.g. user sends some asset using Daedalus' local node instance) when the whole network is temporary congested and their mempool is not filled up by the user's transactions (i.e., size of the user's txes <= mempool capacity through the congestion time).
     - Highest resiliency on temporary network congestion.
 - Clustered mempool's node(s) example: API backends nodes, misconfigured relay and pools.
