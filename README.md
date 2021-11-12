@@ -11,18 +11,23 @@ https://github.com/deshawes/shelley-mud-maps/
 
 ## Mempool from a different view
 
-- Isolated mempool's node(s) example: Daedalus wallets
+- Isolated mempool's node(s) example: Daedalus wallets, API backend not (not aware of any of them)
     - Users won't experience blocking on transaction submissions from their client side (e.g. user sends some asset using Daedalus' local node instance) when the whole network is temporary congested and their mempool is not filled up by the user's transactions (i.e., size of the user's txes <= mempool capacity through the congestion time).
     - Highest resiliency on temporary network congestion.
-- Clustered mempool's node(s) example: API backends nodes.
+- Clustered mempool's node(s) example: API backends nodes, misconfigured relay and pools.
     - Users won't experience blocking until all ther tx submission requests from clients (API frontends as an example) fill up their shared mempool.
     - Lower resiliency on temporary network congestion.
-- Global mempool's node(s) example: relays, pools, API backend nodes etc.
+- Global mempool's node(s) example: properly configured relays, pools, API backend nodes etc.
     - Users won't experience blocking until all the requests from all the clients in the network (by all Daedalus wallet's, all light clients, all other tools in the network) fill up the nodes mempool.
     - Lowest resiliency on temporary network congestion.
 
 
-> Keep in mind, that the whole Cardano Network is underutilised. Alos, this picture below an over simplified description/diagram of the network.
+> Keep in mind:
+> - that the whole Cardano Network is underutilised.
+> - the picture below an oversimplified description/diagram of the network.
+> - the transactions are cleared from the mempool (oversimplified explanation) by
+>   - validation of the received blocks (accepted)
+>   - revalidation of the transactions in the mempool (rejected, expired etc.)
 
 [![VirtualMempools.png](https://github.com/ilap/ShelleyStuffs/blob/master/images/VirtualMempools.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FVirtualMempools.drawio)
 
