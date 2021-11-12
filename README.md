@@ -9,6 +9,11 @@ __Disclaimer__: These diagrams are not accurate, even they can be completely wro
 > Found some other Shelley related diagrams here:
 https://github.com/deshawes/shelley-mud-maps/
 
+## Dynamic Global Mempool idea
+
+[![DynamicMempool.drawio.png](https://github.com/ilap/ShelleyStuffs/blob/master/images/DynamicMempool.drawio.png)](https://app.diagrams.net/#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Filap%2FShelleyStuffs%2Fmaster%2Fdiagrams%2FVDynamicMempool.drawio)
+
+
 ## Mempool from a different view
 
 - Isolated mempool's node(s) example: Daedalus wallets, API backend (not aware of any existing yet using this, nor Blockforst, Adalite, Yoroi, CCwalet etc.)
