@@ -17,11 +17,9 @@ https://github.com/deshawes/shelley-mud-maps/
 - Clustered mempool's node(s) example: API backends nodes.
     - Users won't experience blocking until all ther tx submission requests from clients (API frontends as an example) fill up their shared mempool.
     - Lower resiliency on temporary network congestion.
-- Global mempool's node(s), relays, pools, API backend nodes etc.
+- Global mempool's node(s) example: relays, pools, API backend nodes etc.
     - Users won't experience blocking until all the requests from all the clients in the network (by all Daedalus wallet's, all light clients, all other tools in the network) fill up the nodes mempool.
     - Lowest resiliency on temporary network congestion.
-
-
 
 
 > Keep in mind, that the whole Cardano Network is underutilised. Alos, this picture below an over simplified description/diagram of the network.
