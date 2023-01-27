@@ -70,7 +70,7 @@ The following iterative updates, by Hard Fork Combinator, had been or will be ma
 - [Multi Asset](https://github.com/input-output-hk/cardano-node/blob/b82e6c780937a8e9570915248c3d825e8211ab3d/doc/reference/multi-assets.md)
 - [Alonzo Ledger Changes](https://hydra.iohk.io/job/Cardano/cardano-ledger-specs/specs.alonzo-ledger/latest/download/1/alonzo-changes.pdf)
 - [Plutus Core Report](https://hydra.iohk.io/job/Cardano/plutus/darwin.docs.plutus-report/latest/download-by-type/doc-pdf/plutus)
-- [Multi Asset (Gougen) CDDL](https://github.com/input-output-hk/cardano-ledger-specs/blob/master/shelley-ma/shelley-ma-test/cddl-files/shelley-ma.cddl)
+- [Multi Asset (Gougen) CDDL](https://github.com/input-output-hk/cardano-ledger/blob/b2a76bf94bc6ac6d97efcad46a08ee3d66493f1a/eras/shelley-ma/test-suite/cddl-files/shelley-ma.cddl#L1)
 - [Shelley CDDL](https://github.com/input-output-hk/cardano-ledger-specs/blob/c4aab5045977ab2bf45a27f5804cfcbe2509fc5e/shelley/chain-and-ledger/shelley-spec-ledger-test/cddl-files/shelley.cddl#L3)
 - [Alonzo CDDL](https://github.com/input-output-hk/cardano-ledger-specs/blob/master/eras/alonzo/test-suite/cddl-files/alonzo.cddl)
 - [Current consensus rules](https://github.com/input-output-hk/cardano-ledger-specs/blob/ab138130d979d273f31a7a383c9ab81906e0727c/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Utxo.hs#L320)
