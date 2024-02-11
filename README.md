@@ -73,6 +73,7 @@ The following iterative updates, by Hard Fork Combinator, had been or will be ma
 - [Multi Asset (Gougen) CDDL](https://github.com/input-output-hk/cardano-ledger/blob/b2a76bf94bc6ac6d97efcad46a08ee3d66493f1a/eras/shelley-ma/test-suite/cddl-files/shelley-ma.cddl#L1)
 - [Shelley CDDL](https://github.com/input-output-hk/cardano-ledger-specs/blob/c4aab5045977ab2bf45a27f5804cfcbe2509fc5e/shelley/chain-and-ledger/shelley-spec-ledger-test/cddl-files/shelley.cddl#L3)
 - [Alonzo CDDL](https://github.com/input-output-hk/cardano-ledger-specs/blob/master/eras/alonzo/test-suite/cddl-files/alonzo.cddl)
+- [Conway CDDL](https://github.com/IntersectMBO/cardano-ledger/blob/60e0dcc2da3824e48c46066d917b0eee08947699/eras/conway/impl/cddl-files/conway.cddl#L1)
 - [Current consensus rules](https://github.com/input-output-hk/cardano-ledger-specs/blob/ab138130d979d273f31a7a383c9ab81906e0727c/alonzo/impl/src/Cardano/Ledger/Alonzo/Rules/Utxo.hs#L320)
 
 ### Cardano's Ledger Spec Multi-Aset (MA) explanations
